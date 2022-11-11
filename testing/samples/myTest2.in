@@ -1,0 +1,48 @@
+I load.inc
+> checkout neman
+No such branch exists.
+<<<
+> find "where is the file?"
+Found no commit with that message.
+<<<
+> branch faiz
+<<<
++ neman.txt neman.txt
+> add neman.txt
+<<<
+> status
+=== Branches ===
+*master
+faiz
+
+=== Staged Files ===
+neman.txt
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+
+<<<
+> branch neman
+<<<
+> status
+=== Branches ===
+*master
+faiz
+neman
+
+=== Staged Files ===
+neman.txt
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+
+<<<
+> rm faiz.txt
+No reason to remove the file.
+<<<

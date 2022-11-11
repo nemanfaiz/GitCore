@@ -1,0 +1,36 @@
+I pre.inc
+> status
+=== Branches ===
+*master
+
+=== Staged Files ===
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+
+<<<
+> checkout new
+No such branch exists.
+<<<
+> rm-branch old
+A branch with that name does not exist.
+<<<
+> branch new
+<<<
+> status
+=== Branches ===
+*master
+new
+
+=== Staged Files ===
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+
+<<<

@@ -1,0 +1,43 @@
+I pre.inc
+> rm another.txt
+No reason to remove the file.
+<<<
+> reset another.txt
+No commit with that id exists.
+<<<
++ another.txt another.txt
+> add another.txt
+<<<
+> status
+=== Branches ===
+*master
+
+=== Staged Files ===
+another.txt
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+
+<<<
+> branch another
+<<<
+> checkout another
+<<<
+> status
+=== Branches ===
+*another
+master
+
+=== Staged Files ===
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+another.txt
+
+<<<

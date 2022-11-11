@@ -1,0 +1,56 @@
+I prelude.inc
++ bye.txt bye.txt
+> add bye.txt
+<<<
++ hello.txt hello.txt
+> add hello.txt
+<<<
+> commit "add hello.txt"
+<<<
+> branch neman
+<<<
+> status
+=== Branches ===
+*master
+neman
+
+=== Staged Files ===
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+
+<<<
+> checkout neman
+<<<
+> status
+=== Branches ===
+*neman
+master
+
+=== Staged Files ===
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+
+<<<
+> rm-branch master
+<<<
+> status
+=== Branches ===
+*neman
+
+=== Staged Files ===
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+
+<<<

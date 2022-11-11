@@ -1,0 +1,39 @@
+I pre.inc
+> checkout 123345667 -- main.txt
+No commit with that id exists.
+<<<
+> add another.txt file.txt
+File does not exist.
+<<<
+> status
+=== Branches ===
+*master
+
+=== Staged Files ===
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+
+<<<
+> checkout 98765431 -- another.txt
+No commit with that id exists.
+<<<
+> commit "another.txt"
+No changes added to the commit.
+<<<
+> status
+=== Branches ===
+*master
+
+=== Staged Files ===
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+
+<<<
